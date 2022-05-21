@@ -1,5 +1,5 @@
                                     //lati  //long  //zoom
-var map = new L.map('map').setView([51.505, -0.09], 2);
+var map = new L.map('map').setView([51.505, -0.09], 3);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
